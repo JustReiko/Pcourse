@@ -13,4 +13,4 @@ def power(base, exp):
         return (base * power(base, exp - 1))
 base = int(input("Введите число: "))
 exp = int(input("Введите его степень: "))
-print("Результат возведения в степень равен:", power(base, exp))
+print("Результат равен:", power(base, exp))
